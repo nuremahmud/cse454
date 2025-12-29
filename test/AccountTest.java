@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import static java.lang.Thread.sleep;
 import javax.swing.JTextField;
 import org.junit.After;
@@ -13,10 +7,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author aqua_
- */
+
 public class AccountTest {
 
     private JTextField inputTest;

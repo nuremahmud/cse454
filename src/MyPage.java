@@ -9,14 +9,14 @@ import net.proteanit.sql.DbUtils;
 
 /*
  * Document: MyPage.java
- * Unitec Institute of Technology
- * @authors Natasha Bettridge, Taylor Tran and Michael Yin
+ * Green University Of Bangladesh
+ * @author Nure Mahmud
  * Document: contains home page 
  */
 
 /**
  *
- * @author Natasha Bettridge, Taylor Tran, Michael Yin
+ * @author Nure Mahmud
  */
 public class MyPage extends javax.swing.JFrame {
 Connection conn;
@@ -950,11 +950,11 @@ PreparedStatement pst;
         AboutTab.setBackground(new java.awt.Color(255, 255, 255));
         AboutTab.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 204, 255)));
 
-        Info1.setText("UNITEC BCS ISCG5421");
+        Info1.setText("Green University Of Bangladesh, Dept of CSE");
 
-        Authorstxt.setText("Team: Natasha Bettridge, Taylor Le Tran, Michael Yin");
+        Authorstxt.setText("Team: Nure Mahmud");
 
-        Versiontxt.setText("TMT v1.0");
+        Versiontxt.setText("NB v1.0");
 
         javax.swing.GroupLayout AboutTabLayout = new javax.swing.GroupLayout(AboutTab);
         AboutTab.setLayout(AboutTabLayout);
